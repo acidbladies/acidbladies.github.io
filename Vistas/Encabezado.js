@@ -13,7 +13,7 @@ class Encabezado extends HTMLElement {
         <div class="container-fluid ">
 
           <a class="navbar-brand" href="./index.html">
-            <img src="./Multimedia/pulpo_acid.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
+            <img src="./Multimedia/Pulpo_Acid.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
 
           </a>
           <a style="font-size: 3em; color: #ffffff;">Acid Bladies</a>

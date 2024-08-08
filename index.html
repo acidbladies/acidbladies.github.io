@@ -5,7 +5,6 @@
   <!-- Metaetiquetas requeridas -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="G-SfrnrgMqnSvn50jSE1iqrEkNC0c3MrYyfQjBFjI30" />
   <!-- Etiquetas pestaña -->
   <title>Acid Bladies</title>
   <link rel="icon" href="./Multimedia/Pulpo_Acid.png" type="image/icon">
@@ -65,9 +64,16 @@
     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
   </script>
-
-  <!--Vínculo Traductor Google -->
-  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7L0FPZGXQ8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-7L0FPZGXQ8');
+  </script>
 
   <!-- JavaScript librerías para DOM operaciones CDNJS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"

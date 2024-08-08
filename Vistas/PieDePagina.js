@@ -56,7 +56,7 @@ class PieDePagina extends HTMLElement{
 
                   <div class="col-md-3">
 
-                    <img src="./Multimedia/Cobweb_PP.png" alt="" width="240" height="73rem">
+                    <img src="./Multimedia/Cobweb_PP.png" alt="" width="203" height="62rem">
 
                   </div>
 
